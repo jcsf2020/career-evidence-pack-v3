@@ -1,0 +1,8 @@
+check_name,issue_count,check_status
+dim_customers_duplicate_customer_id,0,PASS
+dim_customers_null_customer_id,0,PASS
+dim_products_duplicate_product_id,0,PASS
+dim_products_null_product_id,0,PASS
+fact_returns_unmatched_sales,3,FAIL
+fact_sales_duplicate_order_item_id,0,PASS
+fact_sales_null_order_item_id,0,PASS
